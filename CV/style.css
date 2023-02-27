@@ -1,0 +1,105 @@
+body{
+    background-color: #EEEEEE;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SoDoSans",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container{
+    background-color:#FFE1E1 ;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    border-radius: 0px 35px 55px rgba(0,0,0,1);
+}
+.container .leftside{
+    position: relative;
+    background-color: #90A17D;
+    padding: 40px;
+} 
+.name{
+    font-size: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+.pic{
+    padding-bottom: 10px;
+}
+.position{
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.hr{
+    justify-content: center;
+    align-items: center;
+    height: 0.5px;
+    background-color: beige;
+}
+ul li{
+    list-style: none;
+}
+.addr {
+    font-size: 13px;
+}
+.info ul {
+    position: relative;
+}
+ul{
+    margin-left: 0px;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+li{
+    padding: 5px;
+}
+.edu{
+    font-size: 13px;
+    text-align: justify;
+}
+.intro{
+    padding: 50px 30px 20px 30px;
+    color: rgb(72, 68, 68);
+    text-indent: 30px;
+}
+h3, h4, h5{
+    font-size: 30px;
+}
+h4, h5{
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.skill{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    color: rgb(72, 68, 68);
+}
+
+a {
+    text-decoration: none;
+}
+.pj1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
